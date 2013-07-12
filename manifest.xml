@@ -1,0 +1,17 @@
+<package>
+  <description brief="PR2 Precise Trajectory Engine">
+  </description>
+  <author>David V. Lu!!</author>
+  <license>BSD</license>
+  <depend package="rospy"/>
+  <depend package="trajectory_msgs"/>
+  <depend package="geometry_msgs"/>
+  <depend package="sensor_msgs"/>
+  <depend package="tf"/>
+  <depend package="actionlib"/>
+  <depend package="actionlib_msgs"/>
+  <depend package="pr2_controllers_msgs"/>
+  <depend package="pr2_gripper_sensor_msgs"/>
+</package>
+
+
