@@ -8,3 +8,4 @@ genaction()
 rosbuild_init()
 rosbuild_genmsg()
 
+rosbuild_make_distribution(0.1.0)
