@@ -1,17 +1,51 @@
 <package>
-  <description brief="PR2 Precise Trajectory Engine">
-  </description>
-  <author>David V. Lu!!</author>
-  <license>BSD</license>
-  <depend package="rospy"/>
-  <depend package="trajectory_msgs"/>
-  <depend package="geometry_msgs"/>
-  <depend package="sensor_msgs"/>
-  <depend package="tf"/>
-  <depend package="actionlib"/>
-  <depend package="actionlib_msgs"/>
-  <depend package="pr2_controllers_msgs"/>
-  <depend package="pr2_gripper_sensor_msgs"/>
-</package>
+  <name>pr2_precise_trajectory</name>
+  <version>1.0.0</version>
+  <description></description>
+  <maintainer email="">David V. Lu!!</maintainer>
 
+  <license>BSD</license>
+
+  <url type="website"></url>
+  <!-- <url type="bugtracker"></url> -->
+
+  <author>David V. Lu!!</author>
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Dependencies needed to compile this package. -->
+  <build_depend>rospy</build_depend>
+  <build_depend>trajectory_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend>actionlib_msgs</build_depend>
+  <build_depend>pr2_controllers_msgs</build_depend>
+  <build_depend>pr2_gripper_sensor_msgs</build_depend>
+
+  <!-- Dependencies needed after this package is compiled. -->
+  <run_depend>rospy</run_depend>
+  <run_depend>trajectory_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>actionlib</run_depend>
+  <run_depend>actionlib_msgs</run_depend>
+  <run_depend>pr2_controllers_msgs</run_depend>
+  <run_depend>pr2_gripper_sensor_msgs</run_depend>
+
+  <!-- Dependencies needed only for running tests. -->
+  <!-- <test_depend>rospy</test_depend> -->
+  <!-- <test_depend>trajectory_msgs</test_depend> -->
+  <!-- <test_depend>geometry_msgs</test_depend> -->
+  <!-- <test_depend>sensor_msgs</test_depend> -->
+  <!-- <test_depend>tf</test_depend> -->
+  <!-- <test_depend>actionlib</test_depend> -->
+  <!-- <test_depend>actionlib_msgs</test_depend> -->
+  <!-- <test_depend>pr2_controllers_msgs</test_depend> -->
+  <!-- <test_depend>pr2_gripper_sensor_msgs</test_depend> -->
+
+</package>
 
