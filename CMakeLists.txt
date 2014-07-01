@@ -39,7 +39,7 @@ generate_messages(DEPENDENCIES std_msgs actionlib_msgs geometry_msgs)
 catkin_package(
     DEPENDS rospy trajectory_msgs geometry_msgs sensor_msgs tf actionlib actionlib_msgs pr2_controllers_msgs pr2_gripper_sensor_msgs
     CATKIN_DEPENDS message_runtime# TODO
-    INCLUDE_DIRS include # TODO include
+    INCLUDE_DIRS # TODO include
     LIBRARIES # TODO
 )
 
