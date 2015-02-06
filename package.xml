@@ -1,6 +1,6 @@
 <package>
   <name>pr2_precise_trajectory</name>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <description>This does some precise trajectory stuff, I'm not really sure though. :D</description>
   <maintainer email="dash@clearpathrobotics.com">Devon Ash</maintainer>
 
