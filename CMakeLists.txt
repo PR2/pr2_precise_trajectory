@@ -15,16 +15,6 @@ find_package(catkin REQUIRED COMPONENTS std_msgs rospy trajectory_msgs geometry_
 
 #rosbuild_find_ros_package(actionlib_msgs)
 
-
-
-
-# CATKIN_MIGRATION: removed during catkin migration
-# rosbuild_init()
-add_message_files(
-  FILES
-  # TODO: List your msg files here
-)
-
 add_action_files(
   FILES
   GripperSequence.action
